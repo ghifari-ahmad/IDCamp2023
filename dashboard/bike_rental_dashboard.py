@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Baca data all_data.csv
-merged_df = pd.read_csv('all_data.csv')
+merged_df = pd.read_csv('dashboard/all_data.csv')
 
 # Sidebar
 st.sidebar.title("Pilih Visualisasi")
